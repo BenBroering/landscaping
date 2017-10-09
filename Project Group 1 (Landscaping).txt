@@ -1,0 +1,7 @@
+1. Project Group 1 (Landscaping)
+
+2. Benjamin Broering, Evan Brodbeck, and Zackary Sprague
+
+3. Landscaping Business Website
+
+4. We will create a website for a landscaping business that gives different information about the business.  The website will have a home page (1), an "about our company" page (2), a staff page (3), and a contact page (4).  In addition, we will have pages about our service such as a page about planting flowers (5), a page about laying mulch (6), a page about cutting grass (7), a page about planting trees (7), a page about designing a garden (8), and a special requests page (9).  One member will work on the HTML, one member will work on CSS, and another will design the structure of the website and place info onto the site.  Web pages and roles are subject to change as needed.  The target audience for our sight would be older adults who don't have time to do lawncare themselves and want it done professionally for their home or business. 
