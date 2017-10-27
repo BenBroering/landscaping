@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+header{
+	flex: 2 100%;
+}
+
+main{
+	flex:3;
+	background-color: lightblue;
+}
+
+aside{
+	flex: 1;
+	background-color: lightgreen;
+}
+
+nav{
+	flex: 1;
+	background-color: lightpink;
+}
