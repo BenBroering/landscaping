@@ -3,19 +3,25 @@ body{
     flex-flow: row wrap;
     font-weight: bold;
     text-align: center;
+    overflow: hidden;
+    background-color: tomato;
+}
+
+.container{
+	height: 720px;
 }
 
 header{
-	flex: 2 100%;
+	flex: 1 100%;
 }
 
 main{
-	flex:3;
+	flex:6;
 	background-color: lightblue;
 }
 
 aside{
-	flex: 1;
+	flex: 2;
 	background-color: lightgreen;
 }
 
