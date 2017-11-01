@@ -4,28 +4,25 @@ body{
     font-weight: bold;
     text-align: center;
     overflow: hidden;
-    background-color: tomato;
+    background-color: #486d26;
 }
 
-.container{
-	height: 720px;
+#wrapper{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+nav{
+	background-color: #dcffbc;
 }
 
 header{
-	flex: 1 100%;
+	background-color: darkgreen;
 }
 
 main{
-	flex:6;
-	background-color: lightblue;
+	background-color: #aee07f;
 }
 
-aside{
-	flex: 2;
-	background-color: lightgreen;
-}
-
-nav{
-	flex: 1;
-	background-color: lightpink;
-}
