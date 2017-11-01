@@ -1,28 +1,51 @@
+/*  Sections  */
 body{
-    display: flex;
-    flex-flow: row wrap;
-    font-weight: bold;
-    text-align: center;
     overflow: hidden;
     background-color: #486d26;
+    font-family: Tahoma,Helvetica,sans-serif;
 }
 
+header{
+	background-color: darkgreen;
+	height: 125px;
+}
+
+header h1{
+	padding-top: 35px;
+}
+
+
+nav{
+	float: left;
+	width: 150px;
+	background-color: #dcffbc;
+
+}
+
+main{
+	
+	margin-left: 150px;
+	background-color: #aee07f;
+}
+
+footer{
+	background-color: darkgreen;
+	text-align: center;
+}
+
+p{
+	
+}
+
+h1, h2, h3, h4{
+	text-align: center;
+}
+
+/*  IDs  */
 #wrapper{
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-
-nav{
-	background-color: #dcffbc;
-}
-
-header{
-	background-color: darkgreen;
-}
-
-main{
-	background-color: #aee07f;
-}
-
+/*  Classes  */
