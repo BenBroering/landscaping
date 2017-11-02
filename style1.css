@@ -1,0 +1,46 @@
+body{
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    background-color: #2d862d;
+	}
+#wrapper{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow:3px 3px 3px black;
+	}
+h1{
+	margin-bottom:0;}
+nav{
+	float:left; width: 135px;,
+	}
+nav a{
+	text-decoration:none;
+	display:block;
+	padding: 14px 22px;
+	color:white;
+	text-align:center;
+	}
+nav a:hover{
+	background-color: #4CAF50;
+	}	
+nav ul{
+	list-style-type: none;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+	background-color:#333;
+	}
+header{
+	background-color: darkgreen;
+	}
+main{
+	background-color: #aee07f;
+	}
+.active{
+	background-color: #4CAF50;
+	}
+footer{
+	clear:both;
+	}
