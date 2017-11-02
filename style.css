@@ -1,17 +1,62 @@
 body{
-    font-weight: bold;
-    text-align: center;
-    overflow: hidden;
     background-color: #2d862d;
+    font-family: Tahoma,Helvetica,sans-serif;
 	}
 #wrapper{
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow:3px 3px 3px black;
+}
+
+header{
+	background-color: darkgreen;
+	height: 110px;
+	background-image: url("images/landscaping logo.gif");
+	background-size: 110px 110px;
+	background-repeat: no-repeat;
+}
+main{
+		background-color: #aee07f;
 	}
 h1{
-	margin-bottom:0;}
+	margin-bottom:0;
+	margin-left: 120px;
+	padding-top: 30px;
+	font-size: 45px;
+}
+h2{
+	margin-top: 0;
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+p{
+	margin-bottom: 0;
+	padding-left: 20px;
+	padding-right: 40px;
+}
+img{
+	padding-right: 20px;
+}
+
+h3{
+	margin-left: 200px;
+	margin-bottom: 0;
+}
+
+#mainservicelist{
+	margin-top: 0;
+	margin-left: 250px;
+}
+
+footer{
+	text-align: center;
+	float: none;
+}
+
+
+
 nav{
 
 	}
@@ -69,16 +114,11 @@ nav li.dropdown {
 .dropdown:hover .content {
     display: block;
 	}
-header{
-	background-color: darkgreen;
-	}
-main{
-	background-color: #aee07f;
-	}
+
 .active{
-	background-color: #4CAF50;
+		background-color: #4CAF50;
 	}
 #land {
-	float:right;
+		float:right;
 	}
 
