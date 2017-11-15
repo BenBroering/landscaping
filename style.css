@@ -124,5 +124,7 @@ nav li.dropdown {
 
 #mulch{
 		list-style-type: none;
-		font: bold 12px/30px;
+		font-weight: bold;
+		line-height: 200%;
+		font-size: 150%;
 	}
