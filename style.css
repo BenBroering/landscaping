@@ -25,24 +25,15 @@ h1{
 	padding-top: 30px;
 	font-size: 45px;
 }
-h2{
-	margin-top: 0;
-	text-align: center;
-	padding-left: 200px;
-	padding-right: 200px;
-}
+
 p{
 	margin-bottom: 0;
 	padding-left: 20px;
 	padding-right: 40px;
 }
+
 img{
 	padding-right: 20px;
-}
-
-h3{
-	margin-left: 200px;
-	margin-bottom: 0;
 }
 
 #mainservicelist{
@@ -54,8 +45,6 @@ footer{
 	text-align: center;
 	float: none;
 }
-
-
 
 nav{
 
@@ -121,4 +110,47 @@ nav li.dropdown {
 #land {
 		float:right;
 	}
+
+
+#home1{
+	margin: auto;
+	color: white;
+	background-color: darkgreen;
+	background-image: url(images/homelawn.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	font-size: 40px;
+	padding-left: 0;
+}
+
+#home1 h2{
+	display: inline-block;
+	margin-top: 0;
+	font-size: 60px;
+	background-color: lightgreen;
+	color: green;
+	margin-left: 50px;
+}
+
+#home1 h3{
+	display: inline;
+	margin-left: 50px;
+	background-color: darkgray;
+	margin-top: 0;
+}
+
+#home2{
+	margin: auto;
+	color: lightgray;
+	background-color: darkgreen;
+	height: 250px;
+	font-size: 40px;
+	padding-left: 0;
+}
+
+#home2 h2{
+	margin-top: 0;
+	margin: auto;
+}
 
