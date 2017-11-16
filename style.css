@@ -112,6 +112,7 @@ nav li.dropdown {
 	}
 
 
+
 #home1{
 	margin: auto;
 	color: white;
@@ -153,4 +154,17 @@ nav li.dropdown {
 	margin-top: 0;
 	margin: auto;
 }
+
+
+#mulch{
+		list-style-type: none;
+		font-weight: bold;
+		line-height: 200%;
+		font-size: 150%;
+	}
+#mulch p{
+	font-weight: normal;
+	line-height: 100%;
+	font-size: 75%;
+	}
 
