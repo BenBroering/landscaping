@@ -19,6 +19,11 @@ header{
 main{
 		background-color: #aee07f;
 	}
+
+main h1,h2,h3{
+	margin-top: 0;
+}
+
 h1{
 	margin-bottom:0;
 	margin-left: 120px;
@@ -122,6 +127,7 @@ li img{
 	color: white;
 	background-color: darkgreen;
 	background-image: url(images/homelawn.jpg);
+	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 500px;
@@ -149,8 +155,8 @@ li img{
 	margin: auto;
 	color: lightgray;
 	background-color: darkgreen;
-	height: 250px;
-	font-size: 40px;
+	height: 300px;
+	font-size: 2em;
 	padding-left: 0;
 }
 
@@ -159,17 +165,116 @@ li img{
 	margin: auto;
 }
 
+#mulchlist{
+	list-style-type: none;
+}
 
-#mulch{
-		list-style-type: none;
+.mulch{
 		font-weight: bold;
 		line-height: 200%;
 		font-size: 150%;
 	}
-#mulch p{
+.mulch p{
 	font-weight: normal;
 	line-height: 100%;
 	font-size: 75%;
-	padding-left: 155px;
+	padding-left: 120px;
+	padding-bottom: 20px;
 	}
+
+#mowinglist{
+	margin-left: 40px;
+}
+
+#mowingpicture{
+	background-image: url(images/lawn-mowing2.jpg);
+	height:500px;
+	width: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#mobileinfo{
+	display: none;
+}
+
+
+#navweb{
+	display: inline;
+}
+
+#navmobile{
+	display: none;
+}
+
+@media only screen and (max-width: 768px){
+	#wrapper{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: none;
+	}
+
+	main h1, main h2, main h3{
+		margin-left: 0;
+	}
+
+	main, #home1, #home2{
+		font-size: 1em;
+	}
+
+	header h1{
+		display: none;
+	}	
+
+	table{
+		display: none;
+	}
+
+	#mobileinfo{
+		display: inline;
+	}
+
+	#home1{
+		height: auto;
+	}
+
+	#home1 h2{
+	font-size: 2em;
+	margin-left: auto;
+	}
+
+	#home1 h3{
+		font-size: 1.75em;
+		margin-left: auto;
+		margin-bottom: 20px;
+	}
+
+	#home2{
+		height: auto;
+	}
+
+	#navweb{
+		display: none;
+	}
+
+	#navmobile{
+		display: inline;
+	}
+
+	#mowingpicture{
+		height: 250px;
+	}
+	.mulch{
+		margin-left: 0;
+	}
+
+	.mulch p{
+		padding-left: 0;
+
+	}
+
+}
+
+
 

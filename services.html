@@ -29,44 +29,59 @@
 </head>
 	<body id="wrapper">
 	<header>
-		<h1>Landscaping!</h1>
+		<h1>Evan's Lawn Care Company</h1>
 	</header>
 	<nav>
-		<ul>
-	 		<li><a href="index.html">Home</a></li>
-			<li><a href="contact.html">Contact Us</a></li>
-			<li class="dropdown">
-    			<a class="active" href="services.html" class="dropbtn">Services</a>
-    		<div class="content">
-      			<a href="services.html">Lawn Mowing</a>
-      			<a href="mulch.html">Mulch Laying</a>
-      			<a href="trees.html">Tree Planting</a>
-    		</div>
-  			</li>
-			<li><a href="gallery.html">Gallery</a></li>
-			<li><a href="about.html">About Us</a></li>
-		</ul>
+		<div id="navweb">
+			<ul>
+		 		<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li class="dropdown">
+	    			<a href="" class="dropbtn">Services</a>
+	    		<div class="content">
+	      			<a href="services.html">Lawn Mowing</a>
+	      			<a href="mulch.html">Mulch Laying</a>
+	      			<a href="trees.html">Tree Planting</a>
+	    		</div>
+	  			</li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="about.html">About Us</a></li>
+			</ul>
+		</div>
+		
+
+
+		<div id="navmobile">
+			<ul>
+		 		<li></li>
+				<li></li>
+				<li class="dropdown">
+	    			<a href="" class="dropbtn">Menu</a>
+	    		<div class="content">
+	    			<a href="index.html">Home</a>
+	    			<a href="contact.html">Contact Us</a>
+	      			<a href="services.html">Lawn Mowing</a>
+	      			<a href="mulch.html">Mulch Laying</a>
+	      			<a href="trees.html">Tree Planting</a>
+	      			<a href="about.html">About Us</a>
+	      			<a href="gallery.html">Gallery</a>
+	    		</div>
+	    	</li>
+			</ul>
+		</div>
 	</nav>
 	<main>
 		<h1>Lawn Mowing</h1>
-		<img class="center fit" src="images/lawn-mowing2.jpg">
-		
-		<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script type="text/javascript" language="JavaScript">
-  function set_body_height() { // set body height = window height
-    $('body').height($(window).height());
-  }
-  $(document).ready(function() {
-    $(window).bind('resize', set_body_height);
-    set_body_height();
-  });
+		<div id="mowingpicture">
+			
+		</div>
 </script>
 		<p>At Evan's Lawn Care Company we got our start with basic lawn care. While we've expanded our services over the years we stay true to our roots with our exceptional lawn care services.
 		   We make it easy to have a great looking lawn and for affordable prices and work around your schedule. If you have any more questions about this service, visit the link about contact us!</p>
 		   <br>
 		   <h2> Lawn mowing services also include </h2>
 		   <p>
-		     <ul style="list-style-type:circle">
+		     <ul style="list-style-type:circle" id="mowinglist">
 		       <li> Weed-eating </li>
 		       <br>
 		       <li> Edging around concrete </li>
@@ -80,12 +95,12 @@
 		     </ul>  
 		   </p>   
 		   
-		   
+		   <br>
 	</main>
 	
 
 	<footer>
-		Copyright &copy
+		Copyright &copy; 2017 Evan's Lawn Care
 	</footer>
 
 
