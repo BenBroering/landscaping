@@ -207,6 +207,21 @@ li img{
 	display: none;
 }
 
+table{
+	width: 100%;
+}
+
+.treelistitems{
+	margin-left: 0;
+	text-align: left;
+}
+
+table td{
+	border: solid;
+}
+
+
+
 @media only screen and (max-width: 768px){
 	#wrapper{
 		width: 100%;
