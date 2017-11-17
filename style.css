@@ -82,6 +82,10 @@ nav li a:hover, .dropdown:hover .dropbtn {
 nav li.dropdown {
     display: inline-block;
 	}
+	
+li img{
+		border-radius: 50%;
+	}
 .content {
     display: none;
     position: absolute;
@@ -166,5 +170,6 @@ nav li.dropdown {
 	font-weight: normal;
 	line-height: 100%;
 	font-size: 75%;
+	padding-left: 155px;
 	}
 
