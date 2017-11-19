@@ -221,8 +221,8 @@ table{
 }
 
 table td{
-	border: solid;
-	}
+	/* border: solid; */
+}
 
 
 @media only screen and (max-width: 768px){
