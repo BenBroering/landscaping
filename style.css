@@ -144,21 +144,22 @@ li img{
 	display: inline-block;
 	margin-top: 0;
 	font-size: 60px;
-	background-color: lightgreen;
-	color: green;
+	background-color: rgba(0, 120, 240, 0.5);
+	color: white;
 	margin-left: 50px;
 }
 
 #home1 h3{
 	display: inline;
 	margin-left: 50px;
-	background-color: darkgray;
+	background-color: rgba(0, 120, 240, 0.5);
+	color: white;
 	margin-top: 0;
 }
 
 #home2{
 	margin: auto;
-	color: lightgray;
+	color: white;
 	background-color: darkgreen;
 	height: 300px;
 	font-size: 2em;
@@ -257,6 +258,17 @@ table{
 table td{
 	/* border: solid; */
 }
+#about{
+	width:50%;
+}
+
+header #webh1{
+	display: inline-block;
+}	
+
+header #mobileh1{
+	display: none;
+}
 
 
 @media only screen and (max-width: 720px){
@@ -275,10 +287,13 @@ table td{
 		font-size: 1em;
 	}
 
-	header h1{
+	header #webh1{
 		display: none;
 	}	
 
+	header #mobileh1{
+		display: inline-block;
+	}
 	/*table{
 		display: none;
 	}*/
@@ -334,6 +349,7 @@ table td{
 	#treeSeason {text-align:center;}
 	#treeSeason fieldset {text-align:center; border:2px solid black;}
 	.treeWeb{ display: none;}
+	#aboutPic{display: none;}
 
 }
 
