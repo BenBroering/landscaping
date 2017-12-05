@@ -189,7 +189,21 @@ li img{
 	font-size: 75%;
 	padding-left: 120px;
 	padding-bottom: 20px;
-	}
+}
+
+#pricelist{
+	padding-left: 50px;
+	font-size: 1.15em;
+	padding-top: 1em;
+}
+
+#disclaimer{
+	font-size: 0.70em;
+}
+
+#lawnprice{
+	text-decoration: none;
+}
 
 #mowinglist{
 	margin-left: 40px;
