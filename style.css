@@ -3,32 +3,36 @@ body{
     font-family: Tahoma,Helvetica,sans-serif;
 	}
 #wrapper{
-	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow:3px 3px 3px black;
+	margin-top: 0;
+	margin-bottom: 0;
+	/*box-shadow:3px 3px 3px black;*/
 }
 
 header{
+	
 	background-color: darkgreen;
 	height: 110px;
 	background-image: url("images/landscaping logo.gif");
 	background-size: 110px 110px;
 	background-repeat: no-repeat;
+	margin-top: 0;
 }
 main{
 		background-color: #aee07f;
-	}
+}
 
 main h1,h2,h3{
 	margin-top: 0;
 }
 
 h1{
+	margin-top: 0;
 	margin-bottom:0;
 	margin-left: 120px;
 	padding-top: 30px;
-	font-size: 45px;
+	font-size: 2.5em;
 }
 
 p{
@@ -220,8 +224,12 @@ table{
 	margin-left: 0;
 	text-align: left;
 }
-#treeMobile{
-	display:none;
+.treeMobile{
+	display: none;
+}
+
+.treeWeb{
+	display: inline;
 }
 
 table td{
@@ -229,7 +237,7 @@ table td{
 }
 
 
-@media only screen and (max-width: 1028px){
+@media only screen and (max-width: 720px){
 	#wrapper{
 		width: 100%;
 		margin-left: auto;
@@ -299,10 +307,11 @@ table td{
 		padding-left: 0;
 	}
 	#treeChart{display:none;}
-	#treeMobile {display:inline;}
-	#treeMobile h2{text-align:center;}
+	.treeMobile {display:inline;}
+	.treeMobile h2{text-align:center;}
 	#treeSeason {text-align:center;}
 	#treeSeason fieldset {text-align:center; border:2px solid black;}
+	.treeWeb{ display: none;}
 
 }
 
