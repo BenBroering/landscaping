@@ -3,8 +3,8 @@ body{
     font-family: Tahoma,Helvetica,sans-serif;
 	}
 #wrapper{
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0;
+	margin-right: 0;
 	margin-top: 0;
 	margin-bottom: 0;
 	/*box-shadow:3px 3px 3px black;*/
@@ -53,6 +53,7 @@ img{
 footer{
 	text-align: center;
 	float: none;
+	height: 20px;
 }
 
 nav{
@@ -161,7 +162,7 @@ li img{
 	background-color: darkgreen;
 	height: 300px;
 	font-size: 2em;
-	padding-left: 0;
+	padding-left: .25em;
 }
 
 #home2 h2{
@@ -181,7 +182,7 @@ li img{
 		font-weight: bold;
 		line-height: 200%;
 		font-size: 150%;
-	}
+}
 .mulch p{
 	font-weight: normal;
 	line-height: 100%;
@@ -197,6 +198,14 @@ li img{
 #mowingpicture{
 	background-image: url(images/lawn-mowing2.jpg);
 	height:500px;
+	width: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#landscapingpicture{
+	background-image: url(images/landscaping-homepage.jpg);
+	height: 350px;
 	width: 100%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -221,7 +230,6 @@ table{
 }
 
 .treelistitems{
-	margin-left: 0;
 	text-align: left;
 }
 .treeMobile{
