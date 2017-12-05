@@ -243,6 +243,9 @@ table{
 table td{
 	/* border: solid; */
 }
+#about{
+	width:50%;
+}
 
 
 @media only screen and (max-width: 720px){
