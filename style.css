@@ -323,6 +323,7 @@ table td{
 	#treeSeason {text-align:center;}
 	#treeSeason fieldset {text-align:center; border:2px solid black;}
 	.treeWeb{ display: none;}
+	#aboutPic{display: none;}
 
 }
 
