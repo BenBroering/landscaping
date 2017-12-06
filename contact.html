@@ -10,7 +10,7 @@
 <style>
 
 main {
-	background-color: white;
+	background-color: green;
 	}
 
 iframe {
@@ -19,23 +19,26 @@ iframe {
 		}
 
 h1 {
+	padding-left: 10px;
 	text-align: left;
-	font-size: 300%;
 	
 	}
 	
+
 h2
     {
+    padding-left: 10px;
     font-family:"Comic Sans MS", cursive, sans-serif;
     text-align: center;
     font-size: 150%;
-    background-color: lightgray;
-    color: white;
+    background-color: #6E9907;
+    background-color: lightgreen;
     
     }
 
 h3 
 	{
+	padding-left: 10px;
 	text-align: left;
 	font-size: 120%;
 	margin-left;
@@ -44,14 +47,20 @@ h3
 
 h4
 	{
+		padding-left: 10px;
 	text-align: left;
 	font-size:  120%;
+<<<<<<< HEAD
 	background-color: lightgray;
 	margin-left;
+=======
+	background-color: lightgreen;
+>>>>>>> 4fd785cde20a61c3b5087e68ea6264ca2a69ee3a
 	}
 
 h5 
 	{
+	padding-left: 10px;
 	text-align: left;
 	font-size:  120%;
 	margin-left;
@@ -59,38 +68,69 @@ h5
 
 h6
 
-	{ 
+	{
+	padding-left: 10px;
 	font-size: 200%;
 	margin-left;
 	}
 form
 	{
-	background-color: lightgray;
+	padding-left: 10px;
+	background-color: lightgreen;
+	background-color: #6E9907;
 	color: white;
 	font-family:"Comic Sans MS", cursive, sans-serif;
+
 	}
 
 
 </style>
 	<body id="wrapper">
 	<header>
-		<h1>Contact Us!</h1>
+		<h1 id="webh1">Evan's Lawn Care Company</h1>
+		<h1 id="mobileh1">Evan's LC</h1>
 	</header>
 	<nav>
-		<ul>
-	 		<li><a href="index.html">Home</a></li>
-			<li><a class="active" href="contact.html">Contact Us</a></li>
-			<li class="dropdown">
-    			<a class="dropbtn">Services</a>
-    		<div class="content">
-      			<a href="mowing.html">Lawn Mowing</a>
-      			<a href="mulch.html">Mulch Laying</a>
-      			<a href="trees.html">Tree Planting</a>
-    		</div>
-  			</li>
-			<li><a href="gallery.html">Gallery</a></li>
-			<li><a href="about.html">About Us</a></li>
-		</ul>
+
+		<div id="navweb">
+			<ul>
+		 		<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li class="dropdown">
+	    			<a href="" class="dropbtn">Services</a>
+	    		<div class="content">
+	      			<a href="mowing.html">Lawn Mowing</a>
+	      			<a href="mulch.html">Mulch Laying</a>
+	      			<a href="trees.html">Tree Planting</a>
+	    		</div>
+	  			</li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="price.html">Prices</a></li>
+			</ul>
+		</div>
+		
+
+
+		<div id="navmobile">
+			<ul>
+		 		<li></li>
+				<li></li>
+				<li class="dropdown">
+	    			<a href="" class="dropbtn">Menu</a>
+	    		<div class="content">
+	    			<a href="index.html">Home</a>
+	    			<a href="contact.html">Contact Us</a>
+	      			<a href="mowing.html">Lawn Mowing</a>
+	      			<a href="mulch.html">Mulch Laying</a>
+	      			<a href="trees.html">Tree Planting</a>
+	      			<a href="about.html">About Us</a>
+	      			<a href="gallery.html">Gallery</a>
+	      			<a href="price.html">Prices</a>
+	    		</div>
+	    	</li>
+			</ul>
+		</div>
 	</nav>
 	<main>
 		
@@ -105,12 +145,12 @@ form
 		</p>
 		</h2>
 		
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.4584286130603!2d-84.53590291993821!3d38.93635427966469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841beb1c6878675%3A0xd93362203adecee2!2s2170+Stoneharbor+Ln%2C+Independence%2C+KY+41051!5e0!3m2!1sen!2sus!4v1512496816486" width="800" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.4584286130603!2d-84.53590291993821!3d38.93635427966469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841beb1c6878675%3A0xd93362203adecee2!2s2170+Stoneharbor+Ln%2C+Independence%2C+KY+41051!5e0!3m2!1sen!2sus!4v1512496816486" width="800" height="350" frameborder="0" style="border:0" allowfullscreen id="map"></iframe>
         
 		<h3>
 		Contact Information:
 		<P>
-		1111 Stone Harbor Lane
+		2170 Stone Harbor Lane
 		<br>
 		Independence, KY 41051
 		<br>
@@ -129,7 +169,7 @@ form
 		<br>
 		<br>
 		<p> 
-		Mon-Sat:    8:AM - 5:PM
+		Mon-Sat:    8:00AM - 5:00PM
 		<br>
 			
 		Sunday:          Closed
@@ -155,8 +195,7 @@ form
 		<br>
 		<br>
 		<label for="message"> Message:</label>
-		<textarea name="message" rows="5" cols="60">
-		</textarea>
+		<textarea name="message" rows="5" cols="60"></textarea>
 		
 		
 		<input id="mySubmit" type="submit" value="send">
