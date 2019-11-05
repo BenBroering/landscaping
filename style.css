@@ -1,51 +1,355 @@
-/*  Sections  */
 body{
-    overflow: hidden;
-    background-color: #486d26;
+    background-color: #2d862d;
     font-family: Tahoma,Helvetica,sans-serif;
+	}
+#wrapper{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	/*box-shadow:3px 3px 3px black;*/
 }
 
 header{
-	background-color: darkgreen;
-	height: 125px;
-}
-
-header h1{
-	padding-top: 35px;
-}
-
-
-nav{
-	float: left;
-	width: 150px;
-	background-color: #dcffbc;
-
-}
-
-main{
 	
-	margin-left: 150px;
-	background-color: #aee07f;
+	background-color: darkgreen;
+	height: 110px;
+	background-image: url("images/landscaping logo.gif");
+	background-size: 110px 110px;
+	background-repeat: no-repeat;
+	margin-top: 0;
+}
+main{
+		background-color: #aee07f;
 }
 
-footer{
-	background-color: darkgreen;
-	text-align: center;
+main h1,h2,h3{
+	margin-top: 0;
+}
+
+h1{
+	margin-top: 0;
+	margin-bottom:0;
+	margin-left: 120px;
+	padding-top: 30px;
+	font-size: 2.5em;
 }
 
 p{
+	margin-bottom: 0;
+	padding-left: 20px;
+	padding-right: 40px;
+}
+
+img{
+	padding-right: 20px;
+}
+
+#mainservicelist{
+	margin-top: 0;
+	margin-left: 250px;
+}
+
+footer{
+	text-align: center;
+	float: none;
+	height: 20px;
+}
+
+nav{
+
+	}
+nav a{
+	text-decoration:none;
+	display:inline-block;
+	padding: 14px 22px;
+	color:white;
+	text-align:center;
+	}
+nav li{
+	display:inline;
+	}
+nav a:hover{
+	background-color: #4CAF50;
+	}
+nav ul{
+	list-style-type: none;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+	background-color:#333;
+	}
+nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
+nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: #4CAF50;
+	}
+nav li.dropdown {
+    display: inline-block;
+	}
+	
+li img{
+		border-radius: 50%;
+	}
+.content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+	}
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	}
+.content a:hover {
+	background-color: #f1f1f1
+	}
+.dropdown:hover .content {
+    display: block;
+	}
+
+.active{
+		background-color: #4CAF50;
+	}
+#land {
+		float:right;
+	}
+
+
+
+#home1{
+	margin: auto;
+	color: white;
+	background-color: darkgreen;
+	background-image: url(images/homelawn.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	font-size: 40px;
+	padding-left: 0;
+}
+
+#home1 h2{
+	display: inline-block;
+	margin-top: 0;
+	font-size: 60px;
+	background-color: rgba(0, 120, 240, 0.5);
+	color: white;
+	margin-left: 50px;
+}
+
+#home1 h3{
+	display: inline;
+	margin-left: 50px;
+	background-color: rgba(0, 120, 240, 0.5);
+	color: white;
+	margin-top: 0;
+}
+
+#home2{
+	margin: auto;
+	color: white;
+	background-color: darkgreen;
+	height: 300px;
+	font-size: 2em;
+	padding-left: .25em;
+}
+
+#home2 h2{
+	margin-top: 0;
+	margin: auto;
+}
+
+#home3{
+	display: inline;
+}
+
+#mulchlist{
+	list-style-type: none;
+}
+
+.mulch{
+		font-weight: bold;
+		line-height: 200%;
+		font-size: 150%;
+}
+.mulch p{
+	font-weight: normal;
+	line-height: 100%;
+	font-size: 75%;
+	padding-left: 120px;
+	padding-bottom: 20px;
+}
+
+#pricelist{
+	padding-left: 50px;
+	font-size: 1.15em;
+	padding-top: 1em;
+}
+
+#disclaimer{
+	font-size: 0.70em;
+}
+
+#lawnprice{
+	text-decoration: none;
+}
+
+#mowinglist{
+	margin-left: 40px;
+}
+
+#mowingpicture{
+	background-image: url(images/lawn-mowing2.jpg);
+	height:500px;
+	width: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#landscapingpicture{
+	background-image: url(images/landscaping-homepage.jpg);
+	height: 350px;
+	width: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#mobileinfo{
+	display: none;
+}
+
+
+#navweb{
+	display: inline;
+}
+
+#navmobile{
+	display: none;
+}
+
+table{
+	width: 100%;
 	
 }
 
-h1, h2, h3, h4{
-	text-align: center;
+.treelistitems{
+	text-align: left;
+}
+.treeMobile{
+	display: none;
 }
 
-/*  IDs  */
-#wrapper{
-	width: 80%;
+.treeWeb{
+	display: inline;
+}
+
+table td{
+	/* border: solid; */
+}
+#about{
+	width:50%;
+}
+
+header #webh1{
+	display: inline-block;
+}	
+
+header #mobileh1{
+	display: none;
+}
+
+
+@media only screen and (max-width: 720px){
+	#wrapper{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: none;
+	}
+
+	main h1, main h2, main h3{
+		margin-left: 0;
+	}
+
+	main, #home1, #home2{
+		font-size: 1em;
+	}
+
+	header #webh1{
+		display: none;
+	}	
+
+	header #mobileh1{
+		display: inline-block;
+	}
+	/*table{
+		display: none;
+	}*/
+
+	#mobileinfo{
+		display: inline;
+	}
+
+	#home1{
+		height: auto;
+	}
+
+	#home1 h2{
+	font-size: 2em;
 	margin-left: auto;
-	margin-right: auto;
+	}
+
+	#home1 h3{
+		font-size: 1.75em;
+		margin-left: auto;
+		margin-bottom: 20px;
+	}
+
+	#home2{
+		height: auto;
+	}
+
+	#home3{
+		display: none;
+	}
+
+	#navweb{
+		display: none;
+	}
+
+	#navmobile{
+		display: inline;
+	}
+
+	#mowingpicture{
+		height: 250px;
+	}
+	.mulch{
+		margin-left: 0;
+	}
+
+	.mulch p{
+		padding-left: 0;
+	}
+	#treeChart{display:none;}
+	.treeMobile {display:inline;}
+	.treeMobile h2{text-align:center;}
+	#treeSeason {text-align:center;}
+	#treeSeason fieldset {text-align:center; border:2px solid black;}
+	.treeWeb{ display: none;}
+	#aboutPic{display: none;}
+
 }
 
-/*  Classes  */
